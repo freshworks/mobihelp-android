@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Mobihelp Demo</string>
+    <string name="label_support">Integrate support in your app to allow users to quickly browse through FAQs, submit feedback and talk to you directly from within the app in real-time!</string>
+    <string name="label_talktous">Integrate Feedback anywhere in the app to colleect feedback form your users instantly.</string>
+    <string name="label_ratingprompt">Use the rating prompt to quickly collect ratings from your users and boost your Play store app rankings.</string>
+
+</resources>
