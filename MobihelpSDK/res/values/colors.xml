@@ -5,7 +5,7 @@
     <color name="mobihelp_ticket_unread_count_bubble_text">@color/mobihelp_white</color>
     
     <!-- Background Color of unread ticket count text -->
-    <color name="mobihelp_unread_count_indicator_bg">#c55</color>
+    <color name="mobihelp_unread_count_indicator_bg">#cc1500</color>
 
     <!-- Color for conversation list item -->
     <!-- Color for all text entered by user in the conversation view -->

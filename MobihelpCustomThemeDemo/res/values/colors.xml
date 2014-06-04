@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="blueText">#336672</color>
+    <color name="blueBg">#C6E4E7</color>
+    <color name="btnPressed">#038FBD</color>
+    <color name="btnNormal">#01526C</color>
+
+</resources>
