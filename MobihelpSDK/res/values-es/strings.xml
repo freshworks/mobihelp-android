@@ -27,7 +27,7 @@
     <string name="mobihelp_label_support_solutions_list_label">Soluciones</string>
     
     <!-- Text for request review item in the conversation view of ticket (Conversation Activity) -->
-    <string name="mobihelp_label_request_review">Clic aquí para calificar la aplicación en Play Store</string>
+    <string name="mobihelp_label_request_review">Haz clic aquí para revisar la aplicación en Play Store</string>
     
     <!-- Default name for anonymous users or users who did not provide a name when name is optional -->
     <string name="mobihelp_default_anon_user_name">MobihelpUser</string>
@@ -46,7 +46,7 @@
     <string name="mobihelp_error_name_not_present">Por favor introduce tu nombre</string>
     <string name="mobihelp_error_email_not_present">Por favor introduce tu dirección de correo electrónico</string>
 	<string name="mobihelp_error_email_not_valid">Por favor introduce una dirección de correo electrónico válida</string>    
-    <string name="mobihelp_error_description_not_present">Por favor introduce la descripción a tu problema</string>
+    <string name="mobihelp_error_description_not_present">Por favor introduce la descripción de tu problema</string>
     <string name="mobihelp_error_genreic_retry_message">Por favor espera un poco y vuelve a intentar</string>
 
     <!-- Menu Items -->
@@ -62,7 +62,7 @@
 
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Enviar</string>
-    <string name="mobihelp_content_description_device_screenshot">Captura de pantalla</string>
+    <string name="mobihelp_content_description_device_screenshot">Captura de pantalla del dispositivo</string>
     <string name="mobihelp_tickets_list_empty_message">¡Aún no has reportado ningún problema!</string>
     <string name="mobihelp_solutions_list_empty_message">No hay soluciones disponibles</string>
     <string name="mobihelp_message_ticket_submitted_thank_you">¡Gracias! tu retroalimentación se ha enviado</string>
