@@ -8,7 +8,9 @@ import android.widget.Button;
 
 import com.freshdesk.mobihelp.FeedbackType;
 import com.freshdesk.mobihelp.Mobihelp;
+import com.freshdesk.mobihelp.MobihelpCallbackStatus;
 import com.freshdesk.mobihelp.MobihelpConfig;
+import com.freshdesk.mobihelp.UnreadUpdatesCallback;
 
 /**
  * Please check the README.txt file included in the root directory of this
@@ -16,6 +18,7 @@ import com.freshdesk.mobihelp.MobihelpConfig;
  */
 public class MainActivity extends ActionBarActivity {
 
+	Button btnSupport;
 	public void onCreate(Bundle savedInstance) {
 		super.onCreate(savedInstance);
 		
@@ -36,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
 		// Drop BreadCrumbs to track user activity
 		Mobihelp.leaveBreadCrumb(this.getLocalClassName());
 		
-		Button btnSupport = (Button) findViewById(R.id.btnSupport);
+		btnSupport = (Button) findViewById(R.id.btnSupport);
 		Button btnTalkToUs = (Button) findViewById(R.id.btnTalkToUs);
 		Button btnAppRateDialog = (Button) findViewById(R.id.btnAppRateDialog);
 		
@@ -66,4 +69,19 @@ public class MainActivity extends ActionBarActivity {
 			}
 		}
 	};
+	
+	protected void onResume() {
+		super.onResume();
+		Mobihelp.getUnreadCountAsync(this, countUpdateCallback);
+	}
+	
+	UnreadUpdatesCallback countUpdateCallback = new UnreadUpdatesCallback() {
+		@Override
+		public void onResult(MobihelpCallbackStatus statusCode, Integer count) {
+			String name = "Support";
+			name += count > 0 ? " (" + count + ")" : "";
+			btnSupport.setText(name);
+		}
+	};
+
 }

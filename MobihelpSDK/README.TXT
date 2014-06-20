@@ -1,4 +1,12 @@
-Release V1.0
+V1.0.1 
+--------------------- 
+Asynchronous Unread count API 
+SDK Size Reduction 
+Spanish Translation Added 
+Bug Fixes
+
+
+V1.0
 ---------------------
 Initial version 
 
