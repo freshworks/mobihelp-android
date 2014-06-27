@@ -1,3 +1,7 @@
+V1.0.2
+---------------------
+Added API to clear user data
+
 V1.0.1 
 --------------------- 
 Asynchronous Unread count API 
