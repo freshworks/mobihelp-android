@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/mobihelp_feedback_problem_description"
             android:layout_margin="4dp"
+            android:minHeight="44dp"
             android:hint="@string/mobihelp_hint_name"
             android:singleLine="true" >
         </EditText>
@@ -44,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/mobihelp_feedback_name"
             android:layout_margin="4dp"
+            android:minHeight="44dp"
             android:hint="@string/mobihelp_hint_email"
             android:inputType="textEmailAddress"
             android:singleLine="true" >

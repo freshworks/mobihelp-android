@@ -48,7 +48,7 @@
             android:name="com.freshdesk.mobihelp.activity.ConversationActivity"
             android:parentActivityName="com.freshdesk.mobihelp.activity.SolutionArticleListActivity"
             android:theme="@style/Theme.Mobihelp"
-            android:windowSoftInputMode="adjustResize" >
+            android:windowSoftInputMode="adjustResize|stateHidden" >
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
