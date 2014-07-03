@@ -7,8 +7,9 @@
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:listSelector="@android:color/transparent"
         android:layout_above="@+id/mobihelp_conversation_divider"
+        android:listSelector="@android:color/transparent"
+        android:stackFromBottom="true"
         android:transcriptMode="alwaysScroll" />
 
     <View
