@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/mobihelp_conversion_listitem_name"
         android:gravity="center_vertical"
-        android:minWidth="80dp"
+        android:minWidth="@dimen/mobihelp_conversion_listitem_min_width"
         android:text="sample message" />
 
     <TextView

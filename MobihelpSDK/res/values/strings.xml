@@ -8,8 +8,11 @@
     <!-- Title of Tickets List Activity -->
     <string name="mobihelp_activity_title_tickets_list">Conversations</string>
 
-    <!-- Title of Feedback Activity -->
-    <string name="mobihelp_activity_title_feedback">Feedback</string>
+    <!-- Title of Feedback Activity for 2 way conversations -->
+    <string name="mobihelp_activity_title_feedback">Start a conversation</string>
+    
+    <!-- Title of Feedback Activity for feedback -->
+    <string name="mobihelp_activity_title_feedback_only">Feedback</string>
 
     <!-- Default title for Solution Article incase solution doesnot have a valid title --> 
     <string name="mobihelp_activity_title_solution_article">Solution</string>
@@ -34,7 +37,7 @@
     
     <!-- UI Element hints -->
     <string name="mobihelp_hint_email">E-Mail</string>
-    <string name="mobihelp_hint_feedback">Feedback</string>
+    <string name="mobihelp_hint_feedback">What\'s on your mind?</string>
     <string name="mobihelp_hint_name">Name</string>
     <string name="mobihelp_hint_required_field">(Required)</string>
     <string name="mobihelp_hint_optional_field">(Optional)</string>
@@ -63,11 +66,11 @@
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Send</string>
     <string name="mobihelp_content_description_device_screenshot">Device Screenshot</string>
-    <string name="mobihelp_tickets_list_empty_message">You haven\'t reported any issues yet!</string>
+    <string name="mobihelp_tickets_list_empty_message">Tap here to start a new conversation</string>
     <string name="mobihelp_solutions_list_empty_message">There are no solutions available</string>
     <string name="mobihelp_message_ticket_submitted_thank_you">Thank You! Your Feedback has been sent!</string>
-    <string name="mobihelp_message_request_succeded">Request Processed Successfully</string>
-    <string name="mobihelp_message_request_failed">Request Failed</string>
+    <string name="mobihelp_message_request_succeded">Sent successfully</string>
+    <string name="mobihelp_message_request_failed">Failed to send. Please try later</string>
     <string name="mobihelp_message_failed_to_load_solution_article">Unable to load this article</string>
     <string name="mobihelp_message_support_agent">support</string>
     <string name="mobihelp_message_pending">sending..</string>
@@ -79,4 +82,27 @@
     <string name="mobihelp_rating_dialog_not_now_button">Not Now</string>
     <string name="mobihelp_rating_dialog_feedback_button">Feedback</string>
     
+    <!-- Text used to describe the time each item in the conversation -->
+    <string name="mobihelp_time_just_now">just now</string>
+    <string name="mobihelp_time_n_mins_ago">{mins} mins ago</string>
+    
+    <plurals name="mobihelp_time_n_hrs_ago">
+        <item quantity="one">{hours} hr ago</item>
+        <item quantity="other">{hours} hrs ago</item>
+    </plurals>
+    
+    <plurals name="mobihelp_time_n_weeks_ago">
+        <item quantity="one">{weeks} week ago</item>
+        <item quantity="other">{weeks} weeks ago</item>
+    </plurals>
+    
+    <plurals name="mobihelp_time_n_months_ago">
+        <item quantity="one">{months} month ago</item>
+        <item quantity="other">{months} months ago</item>
+    </plurals>
+    
+    <string name="mobihelp_time_a_day_ago">a day ago</string>
+    <string name="mobihelp_time_n_days_ago">{days} days ago</string>
+    <string name="mobihelp_time_more_than_a_year_ago">more than a year ago</string>
+
 </resources>
