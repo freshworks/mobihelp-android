@@ -1,7 +1,7 @@
 Mobihelp for Android
 =========
 
-Mobihelp SDK lets you provide in-app support to your mobile app customers. It takes less than 5 min to integrate!
+Mobihelp SDK lets you provide in-app support to your mobile app customers. 
 
   - Customers can view & search solutions in your knowledge base seamlessly.
   - Customers can start a conversation/submit a ticket easily from within your app in real-time.
@@ -13,7 +13,7 @@ Mobihelp SDK lets you provide in-app support to your mobile app customers. It ta
 ![Automated Rating Promts](https://s3.amazonaws.com/assets.mobihelp.freshpo.com/images/N4_3.png)
 ![In App Conversation with Agents](https://s3.amazonaws.com/assets.mobihelp.freshpo.com/images/N4_4.png)
 
-####[Integration Guide](http://developer.freshdesk.com/android_integration_guide)
+####[Integration Guide](http://developer.freshdesk.com/mobihelp/android/integration_guide)
 
-####[API Reference](http://developer.freshdesk.com/android_api_documentation)
+####[API Reference](http://developer.freshdesk.com/mobihelp/android/api)
 
