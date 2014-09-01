@@ -1,13 +1,13 @@
 Mobihelp for Android
 =========
 
-Mobihelp SDK lets you provide in-app support to your mobile app customers. 
+Mobihelp SDK lets you provide in-app support to your mobile app users.
 
-  - Customers can view & search solutions in your knowledge base seamlessly.
-  - Customers can start a conversation/submit a ticket easily from within your app in real-time.
-  - App and Device Information, Debug logs, Custom Data and Breadcrumbs are included in every ticket the user submits.
-  - Agents/Developers get the entire context around the ticket & debug the issues 80% faster
-  - You can manually/automatically prompt users to review your app in the Play store and boost your app rankings
+  - Customers can view and search solutions in your knowledge base.
+  - Customers can start a conversation/submit a ticket easily from within your App.
+  - App and Device Information, Debug logs, Custom Data and Breadcrumbs are included with every ticket the user submits.
+  - Agents/Developers get the entire context around the ticket and debug issues faster.
+  - You can prompt users to review your app on the Playstore and boost your App's rating.
 
 ![In App Solutions and Search](https://s3.amazonaws.com/assets.mobihelp.freshpo.com/images/N4_2.png)
 ![Automated Rating Promts](https://s3.amazonaws.com/assets.mobihelp.freshpo.com/images/N4_3.png)
