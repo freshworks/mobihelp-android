@@ -6,6 +6,9 @@
     <uses-sdk
         android:minSdkVersion="10"
         android:targetSdkVersion="22" />
+	
+	<!-- Needed only for email autocomplete to work, not mandatory for mobihelp -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
 
     <application
         android:icon="@drawable/ic_launcher"

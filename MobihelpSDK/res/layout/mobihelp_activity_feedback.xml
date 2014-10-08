@@ -39,7 +39,7 @@
             android:singleLine="true" >
         </EditText>
 
-        <EditText
+        <AutoCompleteTextView
             android:id="@+id/mobihelp_feedback_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,8 +48,8 @@
             android:minHeight="44dp"
             android:hint="@string/mobihelp_hint_email"
             android:inputType="textEmailAddress"
-            android:singleLine="true" >
-        </EditText>
+            android:singleLine="true" />
+        
 
         <ImageView
             android:id="@+id/mobihelp_feedback_device_screenshot_image"
