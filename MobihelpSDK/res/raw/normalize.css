@@ -76,25 +76,8 @@ body {
     line-height: 26px;
 }
 
-/* ==========================================================================
-   Links
-   ========================================================================== */
-
-/*
- * Addresses `outline` inconsistency between Chrome and other browsers.
- */
-
 a:focus {
     outline: thin dotted;
-}
-
-/*
- * Improves readability when focused and also mouse hovered in all browsers.
- */
-
-a:active,
-a:hover {
-    outline: 0;
 }
 
 /* ==========================================================================
@@ -102,8 +85,7 @@ a:hover {
    ========================================================================== */
 
 /*
- * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
- * Safari 5, and Chrome.
+ * Addresses `h1` font sizes within `section` and `article` 
  */
 
 h1 {
@@ -116,43 +98,9 @@ h2{
     line-height: 32px;
 }
 
-/*
- * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
- */
-
-abbr[title] {
-    border-bottom: 1px dotted;
-}
 
 /*
- * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-
-b,
-strong {
-    font-weight: 600;
-}
-
-/*
- * Addresses styling not present in Safari 5 and Chrome.
- */
-
-dfn {
-    font-style: italic;
-}
-
-/*
- * Addresses styling not present in IE 8/9.
- */
-
-mark {
-    background: #ff0;
-    color: #000;
-}
-
-
-/*
- * Corrects font family set oddly in Safari 5 and Chrome.
+ * Corrects font family for code blocks
  */
 
 code,
@@ -213,19 +161,12 @@ sub {
    Embedded content
    ========================================================================== */
 
-/*
- * Removes border when inside `a` element in IE 8/9.
- */
-
 img {
     border: 2px solid #AAAAAA;
     box-shadow: 0 0 6px rgba(0,0,0,0.3);
     max-width: 100%;
 }
 
-/*
- * Corrects overflow displayed oddly in IE 9.
- */
 
 svg:not(:root) {
     overflow: hidden;
@@ -234,10 +175,6 @@ svg:not(:root) {
 /* ==========================================================================
    Figures
    ========================================================================== */
-
-/*
- * Addresses margin not present in IE 8/9 and Safari 5.
- */
 
 figure {
     margin: 0;
@@ -329,39 +266,6 @@ input[type="radio"] {
 }
 
 /*
- * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-
-input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
-    box-sizing: content-box;
-}
-
-/*
- * Removes inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
-/*
- * Removes inner padding and border in Firefox 4+.
- */
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-/*
  * 1. Removes default vertical scrollbar in IE 8/9.
  * 2. Improves readability and alignment in all browsers.
  */
@@ -371,19 +275,10 @@ textarea {
     vertical-align: top; /* 2 */
 }
 
-/* ==========================================================================
-   Tables
-   ========================================================================== */
-
-/*
- * Remove most spacing between table cells.
- */
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
 img{
     max-width:100%;
+}
+
+iframe { 
+	max-width:100%;
 }
