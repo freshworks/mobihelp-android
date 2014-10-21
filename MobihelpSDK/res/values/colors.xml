@@ -24,4 +24,7 @@
     <!-- Misc -->
     <color name="mobihelp_white">#EFEFEF</color>
 
+        <!-- Action Bar -->
+    <color name="actionbar_bg">#e84c3d</color>
+    
 </resources>
