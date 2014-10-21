@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="Theme.Mobihelp" parent="@style/Theme.MobihelpSDK.Light" />
+    <style name="Theme.Mobihelp" parent="@style/Theme.MobihelpSDK.Custom">
+        <item name="android:actionBarStyle" tools:targetApi="honeycomb">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+        <item name="actionBarWidgetTheme">@style/MyThemeWidget</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/actionbar_bg</item>
+        <item name="background">@color/actionbar_bg</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:icon">@drawable/ic_action_search</item>
+        <item name="icon">@drawable/ic_action_search</item>
+    </style>
+
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="mySearchBar" parent="@style/Widget.AppCompat.SearchView">
+        <item name="closeIcon">@drawable/abc_ic_clear_mtrl_alpha</item>
+        <item name="searchIcon">@drawable/abc_ic_go_search_api_mtrl_alpha</item>
+    </style>
+
+    <style name="MyThemeWidget" parent="@style/Theme.AppCompat">
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="searchViewStyle">@style/mySearchBar</item>
+        <!-- your other custom widget styles -->
+    </style>
 
 </resources>
