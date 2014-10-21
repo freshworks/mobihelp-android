@@ -27,5 +27,12 @@
         <item name="mh_ic_conversations">@drawable/mobihelp_ic_conversation_light</item>
         <item name="mh_ic_send">@drawable/mobihelp_ic_action_send_light</item>
     </style>
+     <style name="Theme.MobihelpSDK.Custom" parent="@style/Theme.Base.Mobihelp.Light">
+        <item name="mh_ic_menu_search">@drawable/mobihelp_ic_action_search_dark</item>
+        <item name="mh_ic_menu_submit">@drawable/mobihelp_ic_action_submit_dark</item>
+        <item name="mh_ic_menu_contact_us">@drawable/mobihelp_ic_action_contact_us_dark</item>
+        <item name="mh_ic_conversations">@drawable/mobihelp_ic_conversation_light</item>
+        <item name="mh_ic_send">@drawable/mobihelp_ic_action_send_light</item>
+    </style>
 
 </resources>
