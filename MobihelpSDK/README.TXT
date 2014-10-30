@@ -4,6 +4,11 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+
+V1.1.1
+---------------------
+Fix for article loading error for new account
+
 V1.1 
 ---------------------
 You Tube Video Support
