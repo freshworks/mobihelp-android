@@ -5,6 +5,13 @@ Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
 
+V1.1.2
+---------------------
+Improved Solution Search
+Fix for video playback in Gingerbread
+Localization support for 10 more languages
+Improved Debug Log Capturing & other fixes
+
 V1.1.1
 ---------------------
 Fix for article loading error for new account
