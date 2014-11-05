@@ -11,7 +11,10 @@
 #proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-project.txt 
 
 # Project target.
-
+<<<<<<< HEAD
+target=android-20
+=======
 target=android-21
+>>>>>>> ea0f1be7376441c19cf8f4339452e2bced8f1aba
 android.library=true
 android.library.reference.1=../../../adt-bundle-linux-x86_64-20140702/sdk/extras/android/support/v7/appcompat

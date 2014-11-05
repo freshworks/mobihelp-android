@@ -73,7 +73,7 @@
     <string name="mobihelp_message_request_failed">Failed to send. Please try later</string>
     <string name="mobihelp_message_failed_to_load_solution_article">Unable to load this article</string>
     <string name="mobihelp_message_support_agent">support</string>
-    <string name="mobihelp_message_pending">sending..</string>
+    <string name="mobihelp_message_pending">sending...</string>
     
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>
