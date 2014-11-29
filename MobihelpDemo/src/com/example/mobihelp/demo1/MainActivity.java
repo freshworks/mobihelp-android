@@ -24,6 +24,7 @@ public class MainActivity extends ActionBarActivity {
 		MobihelpConfig config = new MobihelpConfig("https://yourfreshdeskdomain.freshdesk.com",
 				"your-app-id-here", "your-app-secret-here");
 		config.setFeedbackType(FeedbackType.NAME_AND_EMAIL_REQUIRED);
+		config.setAutoReplyEnabled(true);
 		Mobihelp.init(this, config);
 
 		// Add Custom data pertaining to your application 

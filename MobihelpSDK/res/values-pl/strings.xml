@@ -11,6 +11,7 @@
     <string name="mobihelp_label_my_conversations">Moje rozmowy</string>
     <string name="mobihelp_label_support_solutions_list_label">Rozwiązania</string>
     <string name="mobihelp_label_request_review">Kliknij tutaj, aby zrecenzować aplikację w PlayStore</string>
+    <string name="mobihelp_autoreply_message">Dziękujemy za uwagi. Nasz przedstawiciel wsparcia skontaktuje się z Państwem wkrótce.</string>
     <string name="mobihelp_default_anon_user_name">Użytkownik Mobihelp</string>
     
     <!-- UI Element hints -->

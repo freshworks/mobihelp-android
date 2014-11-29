@@ -6,5 +6,6 @@
     <attr name="mh_ic_menu_contact_us" format="reference" />
     <attr name="mh_ic_conversations" format="reference" />
     <attr name="mh_ic_send" format="reference" />
+    <attr name="mh_ic_attach" format="reference" />
 
 </resources>

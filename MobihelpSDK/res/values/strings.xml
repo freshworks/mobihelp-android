@@ -13,11 +13,14 @@
     
     <!-- Title of Feedback Activity for feedback -->
     <string name="mobihelp_activity_title_feedback_only">Feedback</string>
-
-    <!-- Default title for Solution Article incase solution doesnot have a valid title --> 
-    <string name="mobihelp_activity_title_solution_article">Solution</string>
     
-    <!-- Text for "Contact Us" button in the Support Screen (Solution Article List Activity) -->
+    <!-- Title of Attachment Handler Activity -->
+    <string name="mobihelp_activity_title_attachment_handler">Attachment</string>
+    
+    <!-- Default title for Solution Article incase solution doesnot have a valid title -->
+    <string name="mobihelp_activity_title_solution_article">Solution</string>
+	
+	<!-- Text for "Contact Us" button in the Support Screen (Solution Article List Activity) -->
     <string name="mobihelp_label_contact_us">Contact Us</string>
     
     <!-- Text below the Contact Us button in the Support Screen (Solution Article List Activity) -->
@@ -31,6 +34,9 @@
     
     <!-- Text for request review item in the conversation view of ticket (Conversation Activity) -->
     <string name="mobihelp_label_request_review">Click here to review the app in PlayStore</string>
+    
+    <!-- Text for Autoreply message in conversations -->
+    <string name="mobihelp_autoreply_message">Thank you for your feedback. Our support representative will get in touch with you shortly.</string>
     
     <!-- Default name for anonymous users or users who did not provide a name when name is optional -->
     <string name="mobihelp_default_anon_user_name">MobihelpUser</string>
@@ -51,6 +57,11 @@
 	<string name="mobihelp_error_email_not_valid">Please Enter a Valid E-Mail Address</string>    
     <string name="mobihelp_error_description_not_present">Please Enter a Problem Description</string>
     <string name="mobihelp_error_genreic_retry_message">Please try again after sometime</string>
+    <string name="mobihelp_error_image_not_found">Image not found ! Could have been moved or deleted</string>
+    <string name="mobihelp_error_attachment_too_large">Attachment too large!</string>
+    <string name="mobihelp_error_invalid_image">Invalid Image!</string>
+    <string name="mobihelp_error_note_text_empty">Please enter text for reply</string> 
+    <string name="mobihelp_error_support_section_disabled">Support section is currently unavailable!</string>
 
     <!-- Menu Items -->
     
@@ -63,6 +74,12 @@
     <!-- Title for "Submit" menu item in Feedback Screen (Feedback Activity) -->
     <string name="mobihelp_menu_item_title_submit">Submit</string>
 
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Select Picture</string>
+    <string name="mobihelp_content_description_action_attach_image">Attach Image</string>
+    <string name="mobihelp_content_description_attachment">Attachment Image</string>
+    <string name="mobihelp_attachment_default_message">Image attached</string>
+        
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Send</string>
     <string name="mobihelp_content_description_device_screenshot">Device Screenshot</string>

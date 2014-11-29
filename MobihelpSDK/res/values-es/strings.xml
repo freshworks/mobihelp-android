@@ -32,6 +32,9 @@
     <!-- Text for request review item in the conversation view of ticket (Conversation Activity) -->
     <string name="mobihelp_label_request_review">Haz clic aquí para revisar la aplicación en Play Store</string>
     
+    <!-- Text for Autoreply message in conversations -->
+    <string name="mobihelp_autoreply_message">Gracias por sus comentarios. Nuestro representante de soporte se pondrá en contacto con usted en breve.</string>
+    
     <!-- Default name for anonymous users or users who did not provide a name when name is optional -->
     <string name="mobihelp_default_anon_user_name">MobihelpUser</string>
     

@@ -4,6 +4,12 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+V1.2
+__________________________
+Added Auto Reply for new Conversations
+Image Attachments can be added to conversations
+Configuration can be done from SDK
+Minor Fixes
 
 V1.1.2
 ---------------------

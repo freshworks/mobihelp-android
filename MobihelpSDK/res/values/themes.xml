@@ -10,6 +10,7 @@
         <item name="mh_ic_menu_contact_us">@drawable/mobihelp_ic_action_contact_us_dark</item>
         <item name="mh_ic_conversations">@drawable/mobihelp_ic_conversation_dark</item>
         <item name="mh_ic_send">@drawable/mobihelp_ic_action_send_dark</item>
+        <item name="mh_ic_attach">@drawable/mobihelp_ic_action_attach_dark</item>
     </style>
 
     <style name="Theme.MobihelpSDK.Light" parent="@style/Theme.Base.Mobihelp.Light">
@@ -18,6 +19,7 @@
         <item name="mh_ic_menu_contact_us">@drawable/mobihelp_ic_action_contact_us_light</item>
         <item name="mh_ic_conversations">@drawable/mobihelp_ic_conversation_light</item>
         <item name="mh_ic_send">@drawable/mobihelp_ic_action_send_light</item>
+        <item name="mh_ic_attach">@drawable/mobihelp_ic_action_attach_light</item>
     </style>
 
     <style name="Theme.MobihelpSDK.Light.DarkActionBar" parent="@style/Theme.Base.Mobihelp.Light.DarkActionBar">
@@ -26,6 +28,7 @@
         <item name="mh_ic_menu_contact_us">@drawable/mobihelp_ic_action_contact_us_dark</item>
         <item name="mh_ic_conversations">@drawable/mobihelp_ic_conversation_light</item>
         <item name="mh_ic_send">@drawable/mobihelp_ic_action_send_light</item>
+        <item name="mh_ic_attach">@drawable/mobihelp_ic_action_attach_light</item>
     </style>
 
 </resources>
