@@ -4,6 +4,10 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+V1.3
+---------------------
+Added support for multiple categories in solutions
+
 V1.2.1 
 ---------------------
 Fix Empty Attachment Issue.

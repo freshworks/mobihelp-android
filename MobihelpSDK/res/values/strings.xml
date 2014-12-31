@@ -62,7 +62,8 @@
     <string name="mobihelp_error_invalid_image">Invalid Image!</string>
     <string name="mobihelp_error_note_text_empty">Please enter text for reply</string> 
     <string name="mobihelp_error_support_section_disabled">Support section is currently unavailable!</string>
-
+	<string name="mobihelp_error_unable_to_launch_app_store">Unable to launch AppStore for review</string>
+	    
     <!-- Menu Items -->
     
     <!-- Title for "Search" menu item in Support Screen (Solution Article List Activity) -->
