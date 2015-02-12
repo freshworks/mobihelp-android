@@ -4,6 +4,13 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+V1.3.1
+---------------------
+Added support for Toolbar based Material themes (*.NoActionBar themes)
+Added support for Enhanced Privacy Mode
+Ability to deep link and open solutions in-app
+Minor Fixes
+
 V1.3
 ---------------------
 Added support for multiple categories in solutions

@@ -38,6 +38,9 @@
     <!-- Text for Autoreply message in conversations -->
     <string name="mobihelp_autoreply_message">Thank you for your feedback. Our support representative will get in touch with you shortly.</string>
     
+    <!-- Text for "View Solution" option to view linked solutions within the app -->
+    <string name="mobihelp_label_view_solution">View Solution</string>
+    
     <!-- Default name for anonymous users or users who did not provide a name when name is optional -->
     <string name="mobihelp_default_anon_user_name">MobihelpUser</string>
     
