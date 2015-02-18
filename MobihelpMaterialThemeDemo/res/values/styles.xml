@@ -1,0 +1,17 @@
+<resources xmlns:andrxoid="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:i="">
+
+    <style name="Theme.CustomMaterialTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/material_amber_500</item>
+        <item name="colorPrimaryDark">@color/material_amber_700</item>
+        <item name="colorAccent">@color/material_light_green_A200</item>
+
+        <!-- Mobihelp icon refs -->
+        <item name="mh_ic_menu_search">@drawable/mobihelp_ic_action_search_light</item>
+        <item name="mh_ic_menu_submit">@drawable/mobihelp_ic_action_submit_light</item>
+        <item name="mh_ic_menu_contact_us">@drawable/mobihelp_ic_action_contact_us_light</item>
+        <item name="mh_ic_conversations">@drawable/mobihelp_ic_conversation_light</item>
+        <item name="mh_ic_send">@drawable/mobihelp_ic_action_send_light</item>
+        <item name="mh_ic_attach">@drawable/mobihelp_ic_action_attach_light</item>
+    </style>
+
+</resources>
