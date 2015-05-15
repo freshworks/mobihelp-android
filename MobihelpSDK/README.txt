@@ -4,6 +4,13 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+v1.4
+---------------------
+- Images can now be attached as part of Initial Feedback
+- On Resolved tickets, Users will be prompted to confirm if it was resolved. 
+- Option to hide Conversations ( use only Solutions/ FAQ in SDK ) 
+- Performance Improvements. 
+
 V1.3.1
 ---------------------
 Added support for Toolbar based Material themes (*.NoActionBar themes)

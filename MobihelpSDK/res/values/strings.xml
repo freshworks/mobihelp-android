@@ -66,6 +66,7 @@
     <string name="mobihelp_error_note_text_empty">Please enter text for reply</string> 
     <string name="mobihelp_error_support_section_disabled">Support section is currently unavailable!</string>
 	<string name="mobihelp_error_unable_to_launch_app_store">Unable to launch AppStore for review</string>
+	<string name="mobihelp_error_waiting_for_image_to_load">Waiting for Image to load.</string>
 	    
     <!-- Menu Items -->
     
@@ -95,6 +96,13 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Unable to load this article</string>
     <string name="mobihelp_message_support_agent">support</string>
     <string name="mobihelp_message_pending">sending...</string>
+    <string name="mobihelp_close_confirmation_message">Did we help solve your issue?</string>
+    <string name="mobihelp_message_conversation_ended">This conversation has ended.</string>
+    <string name="mobihelp_message_start_new_conversation">Start a new conversation</string>
+    
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Yes</string>
+    <string name="mobihelp_label_no">No</string>
     
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>

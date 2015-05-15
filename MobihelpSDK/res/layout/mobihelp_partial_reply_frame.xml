@@ -3,7 +3,6 @@
     android:id="@+id/mobihelp_conversation_reply_group"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
     android:orientation="horizontal"
     android:padding="4dp" >
 
@@ -11,6 +10,7 @@
         android:id="@+id/mobihelp_conversation_attach_image"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:background="?attr/selectableItemBackground"
         android:layout_gravity="center_vertical"
         android:adjustViewBounds="true"
         android:contentDescription="@string/mobihelp_content_description_action_attach_image"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:hint="@string/mobihelp_hint_enter_text_here"
-        android:inputType="textMultiLine"
+        android:inputType="textMultiLine|textCapSentences"
         android:maxLines="4"
         android:singleLine="false" />
 
@@ -34,6 +34,7 @@
         android:layout_gravity="center_vertical"
         android:adjustViewBounds="true"
         android:contentDescription="@string/mobihelp_content_description_send_message"
+        android:background="?attr/selectableItemBackground"
         android:minHeight="40dp"
         android:minWidth="48dp"
         android:scaleType="centerInside"

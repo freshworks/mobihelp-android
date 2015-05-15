@@ -7,7 +7,7 @@
         android:id="@+id/mobihelp_support_my_conversations_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/abc_list_selector_holo_dark" >
+        android:background="?attr/selectableItemBackground" >
 
         <TextView
             android:id="@+id/mobihelp_support_my_conversations"
