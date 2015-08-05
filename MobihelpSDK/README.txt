@@ -4,6 +4,13 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+v1.5
+---------------------
+Ability to display solutions filtered by tags
+Ability to preset subject and prefill description
+Ability to mark solutions as helpful or not
+Performance Improvements
+
 v1.4
 ---------------------
 - Images can now be attached as part of Initial Feedback

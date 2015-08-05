@@ -3,7 +3,8 @@
 
     <!-- Color of unread ticket count text in Support Page-->
     <color name="mobihelp_ticket_unread_count_bubble_text">@color/mobihelp_white</color>
-    
+    <color name="mobihelp_background_grey">#696969</color>
+
     <!-- Background Color of unread ticket count text -->
     <color name="mobihelp_unread_count_indicator_bg">#cc1500</color>
 
@@ -20,6 +21,7 @@
     <!-- Divider colors -->
     <color name="mobihelp_divider_light">#c7c7c7</color>
     <color name="mobihelp_divider_dark">#bbb</color>
+    <color name="mobihelp_divider_black">#000</color>
 
     <!-- Misc -->
     <color name="mobihelp_white">#EFEFEF</color>

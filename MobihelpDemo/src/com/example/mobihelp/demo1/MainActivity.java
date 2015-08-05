@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.freshdesk.mobihelp.FeedbackRequest;
 import com.freshdesk.mobihelp.FeedbackType;
 import com.freshdesk.mobihelp.Mobihelp;
 import com.freshdesk.mobihelp.MobihelpCallbackStatus;
@@ -36,11 +37,13 @@ public class MainActivity extends ActionBarActivity {
 		Mobihelp.leaveBreadCrumb(this.getLocalClassName());
 		
 		btnSupport = (Button) findViewById(R.id.btnSupport);
-		Button btnTalkToUs = (Button) findViewById(R.id.btnTalkToUs);
+		Button btnFeedback = (Button) findViewById(R.id.btnFeedback);
+		Button btnSolutions = (Button) findViewById(R.id.btnSolutions);
 		Button btnAppRateDialog = (Button) findViewById(R.id.btnAppRateDialog);
 		
 		btnSupport.setOnClickListener(btnClickListener);
-		btnTalkToUs.setOnClickListener(btnClickListener);
+		btnFeedback.setOnClickListener(btnClickListener);
+		btnSolutions.setOnClickListener(btnClickListener);
 		btnAppRateDialog.setOnClickListener(btnClickListener);
 	}
 
@@ -53,11 +56,18 @@ public class MainActivity extends ActionBarActivity {
 				Mobihelp.showSupport(MainActivity.this);
 				break;
 
-			case R.id.btnTalkToUs:
-				// Launch Feedback Directly
-				Mobihelp.showFeedback(MainActivity.this);
+			case R.id.btnFeedback:
+				// Launch Feedback Directly with prefilled subject and/or description
+				FeedbackRequest feedbackRequest = new FeedbackRequest();
+				feedbackRequest.setSubject("Order 12345"); //Can be a dynamic id like order id from your app
+				feedbackRequest.setDescription("Prefilled description for the user");
+				Mobihelp.showFeedback(MainActivity.this, feedbackRequest);
 				break;
 				
+			case R.id.btnSolutions:
+				Mobihelp.showSolutions(MainActivity.this);
+				break;
+
 			case R.id.btnAppRateDialog:
 				// Manually prompt for an App Rating/Feedback Dialog
 				Mobihelp.showAppRateDialog(MainActivity.this);

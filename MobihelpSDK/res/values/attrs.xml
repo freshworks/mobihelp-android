@@ -7,5 +7,6 @@
     <attr name="mh_ic_conversations" format="reference" />
     <attr name="mh_ic_send" format="reference" />
     <attr name="mh_ic_attach" format="reference" />
+    <attr name="mh_display_actionbar_for_solutions" format ="boolean" />
 
 </resources>

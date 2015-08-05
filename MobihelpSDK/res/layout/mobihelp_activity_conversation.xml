@@ -34,7 +34,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignWithParentIfMissing="true"
         android:layout_above="@+id/mobihelp_start_new_conversation_group" />
-    
+
     <include
         layout="@layout/mobihelp_start_new_conversation_frame"
         android:layout_width="match_parent"

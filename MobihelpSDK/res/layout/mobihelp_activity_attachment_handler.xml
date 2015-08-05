@@ -25,7 +25,7 @@
         android:layout_above="@+id/mobihelp_conversation_reply_group"
         android:background="@android:color/darker_gray" />
 
-    <include layout="@layout/mobihelp_partial_reply_frame" 
+    <include layout="@layout/mobihelp_partial_reply_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
