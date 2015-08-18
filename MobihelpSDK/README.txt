@@ -4,6 +4,14 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+v1.5.2
+---------------------
+Fixed issue with Preset Email
+
+v1.5.1
+---------------------
+Fixed issue with article ordering
+
 v1.5
 ---------------------
 Ability to display solutions filtered by tags
