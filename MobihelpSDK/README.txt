@@ -4,6 +4,10 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+v1.5.4
+---------------------
+Fixed ActionBar Up behaviour
+
 v1.5.3
 ---------------------
 Fixed Timing issue on ClearData
