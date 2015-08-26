@@ -4,6 +4,10 @@ Documentation   : http://developer.freshdesk.com/mobihelp
 Support         : http://support.freshdesk.com
 Email           : support@freshdesk.com
 
+v1.5.3
+---------------------
+Fixed Timing issue on ClearData
+
 v1.5.2
 ---------------------
 Fixed issue with Preset Email
