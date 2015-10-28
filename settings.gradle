@@ -1,1 +1,1 @@
-include ':MobihelpSDK'
+include ':MobihelpSDK', ':MobihelpDemo', ':MobihelpCustomThemeDemo', ':MobihelpMaterialThemeDemo'

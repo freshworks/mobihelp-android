@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
@@ -20,12 +20,10 @@ android {
             assets.srcDirs = ['assets']
         }
     }
-    lintOptions {
-        warning 'MissingQuantity', 'MissingTranslation', 'ImpliedQuantity'
-    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
+    compile project(':MobihelpSDK')
     compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
 }
