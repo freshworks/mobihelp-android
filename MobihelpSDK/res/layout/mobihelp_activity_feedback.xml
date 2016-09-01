@@ -59,8 +59,8 @@
             android:layout_height="@dimen/mobihelp_feedback_remove_icon_size"
             android:background="@drawable/mobihelp_close_button_background"
             android:contentDescription="@string/mobihelp_content_description_action_attach_image"
-   			android:layout_alignLeft="@id/mobihelp_feedback_attachment_preview_image"
-   			android:layout_alignBottom="@id/mobihelp_feedback_attachment_preview_image"
+            android:layout_alignLeft="@id/mobihelp_feedback_attachment_preview_image"
+            android:layout_alignBottom="@id/mobihelp_feedback_attachment_preview_image"
             android:visibility="gone"
             android:scaleType="centerInside"
             android:src="@drawable/mobihelp_ic_action_remove" />

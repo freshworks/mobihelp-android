@@ -85,7 +85,7 @@ a:focus {
    ========================================================================== */
 
 /*
- * Addresses `h1` font sizes within `section` and `article` 
+ * Addresses `h1` font sizes within `section` and `article`
  */
 
 h1 {
@@ -279,6 +279,6 @@ img{
     max-width:100%;
 }
 
-iframe { 
+iframe {
 	max-width:100%;
 }

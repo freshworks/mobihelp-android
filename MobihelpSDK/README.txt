@@ -34,9 +34,9 @@ Performance Improvements
 v1.4
 ---------------------
 - Images can now be attached as part of Initial Feedback
-- On Resolved tickets, Users will be prompted to confirm if it was resolved. 
-- Option to hide Conversations ( use only Solutions/ FAQ in SDK ) 
-- Performance Improvements. 
+- On Resolved tickets, Users will be prompted to confirm if it was resolved.
+- Option to hide Conversations ( use only Solutions/ FAQ in SDK )
+- Performance Improvements.
 
 V1.3.1
 ---------------------
@@ -49,7 +49,7 @@ V1.3
 ---------------------
 Added support for multiple categories in solutions
 
-V1.2.1 
+V1.2.1
 ---------------------
 Fix Empty Attachment Issue.
 
@@ -71,11 +71,11 @@ V1.1.1
 ---------------------
 Fix for article loading error for new account
 
-V1.1 
+V1.1
 ---------------------
 You Tube Video Support
-Email Autocomplete if Account permission available 
-Improved Validations 
+Email Autocomplete if Account permission available
+Improved Validations
 Minor Fixes
 
 V1.0.4
@@ -91,19 +91,19 @@ V1.0.2
 ---------------------
 Added API to clear user data
 
-V1.0.1 
---------------------- 
-Asynchronous Unread count API 
-SDK Size Reduction 
-Spanish Translation Added 
+V1.0.1
+---------------------
+Asynchronous Unread count API
+SDK Size Reduction
+Spanish Translation Added
 Bug Fixes
 
 
 V1.0
 ---------------------
-Initial version 
+Initial version
 
-Support for Solutions 
-Conversation with Agents 
-Debug Logs, App and Device information captured along with tickets. 
-Ability to add custom data and bread crumbs to tickets. 
+Support for Solutions
+Conversation with Agents
+Debug Logs, App and Device information captured along with tickets.
+Ability to add custom data and bread crumbs to tickets.
