@@ -1,6 +1,9 @@
 Mobihelp for Android
 =========
 
+### Deprecation Notice : This product is deprecated and no longer supported. To discuss moving to our newer offerings, please reach out to us at support@freshdesk.com
+
+
 Mobihelp SDK lets you provide in-app support to your mobile app users.
 
   - Customers can view and search solutions in your knowledge base.
@@ -13,7 +16,6 @@ Mobihelp SDK lets you provide in-app support to your mobile app users.
 ![Automated Rating Promts](https://s3.amazonaws.com/assets.mobihelp.freshpo.com/images/N4_3.png)
 ![In App Conversation with Agents](https://s3.amazonaws.com/assets.mobihelp.freshpo.com/images/N4_4.png)
 
-####[Integration Guide](http://developer.freshdesk.com/mobihelp/android/integration_guide)
+#### [Integration Guide](http://developer.freshdesk.com/mobihelp/android/integration_guide)
 
-####[API Reference](http://developer.freshdesk.com/mobihelp/android/api)
-
+#### [API Reference](http://developer.freshdesk.com/mobihelp/android/api)
